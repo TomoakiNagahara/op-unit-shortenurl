@@ -37,18 +37,10 @@ class Admin
 
 	/** Automatically
 	 *
+	 * @created
 	 */
 	function Auto()
 	{
 
-	}
-
-	/** Admin
-	 *
-	 */
-	function Admin()
-	{
-		include(__DIR__.'/Admin.class.php');
-		return new Admin();
 	}
 }
